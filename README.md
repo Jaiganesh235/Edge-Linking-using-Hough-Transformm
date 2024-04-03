@@ -22,8 +22,9 @@ Draw lines on the image.
 Display the result.
 
 ## Program:
-```DEVELOPED BY: S JAIGANESH
-   REGNO: 212222240037
+```
+DEVELOPED BY: S JAIGANESH
+REGNO: 212222240037
 ```
 
 ### Read image and convert it to grayscale image
