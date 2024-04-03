@@ -1,4 +1,4 @@
-# EDGE--LINKING-HOUGH-TRANSFORM
+# EX-07 EDGE LINKING HOUGH TRANSFORM
 ## Aim:
 To write a Python program to detect the lines using Hough Transform.
 
@@ -24,7 +24,7 @@ Display the result.
 ## Program:
 ```
 DEVELOPED BY: S JAIGANESH
-REGNO: 212222240037
+REGISTER NUMBER: 212222240037
 ```
 
 ### Read image and convert it to grayscale image
@@ -32,8 +32,8 @@ REGNO: 212222240037
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-img=cv2.imread("lineart.jpg",0)
-img_c=cv2.imread("lineart.jpg",1)
+img=cv2.imread("butterfly.jpg",0)
+img_c=cv2.imread("butterfly.jpg",1)
 img_c=cv2.cvtColor(img_c,cv2.COLOR_BGR2RGB)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
@@ -67,7 +67,8 @@ for line in lines:
     cv2.line(img_c,(x1,y1),(x2,y2),(255,0,0),3)
 ```
 ### Display the result
-```plt.imshow(img_c)
+```
+plt.imshow(img_c)
 plt.title("Result Image")
 plt.axis("off")
 plt.show()
@@ -75,21 +76,16 @@ plt.show()
 ## Output
 
 ### Input image and grayscale image
-![image](https://github.com/Jaiganesh235/Edge-Linking-using-Hough-Transformm/assets/118657189/6a6f47fa-1db2-4e30-8e58-67d5448a47c9)
-
 
 
 <br>
 
 ### Canny Edge detector output
-![image](https://github.com/Jaiganesh235/Edge-Linking-using-Hough-Transformm/assets/118657189/e0a2827a-01d0-4204-a9f2-3b629ca8b68d)
 
 
 <br>
 
 ### Display the result of Hough transform
-![image](https://github.com/Jaiganesh235/Edge-Linking-using-Hough-Transformm/assets/118657189/a7d63dab-8691-4254-8f5e-a7a92d3ebf86)
-
 
 <br>
 
