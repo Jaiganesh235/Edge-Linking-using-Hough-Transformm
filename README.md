@@ -74,7 +74,8 @@ plt.show()
 ## Output
 
 ### Input image and grayscale image
-![image](https://github.com/Jaiganesh235/Edge-Linking-using-Hough-Transformm/assets/118657189/f2d7ee0f-bf74-43df-a38f-d31054bb0bb8)
+![image](https://github.com/Jaiganesh235/Edge-Linking-using-Hough-Transformm/assets/118657189/6a6f47fa-1db2-4e30-8e58-67d5448a47c9)
+
 
 
 <br>
